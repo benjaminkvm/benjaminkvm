@@ -14,6 +14,21 @@ By night, I run Afternoon Foundry, a small engineering side-project studio in Va
 $ ls ~/projects
 ```
 
+### [Refract](https://refract.rs)
+**Reactive UI framework for web and desktop · Rust, WebAssembly**
+
+A cross-platform UI framework built in Rust. Refract combines declarative views, fine-grained reactive state, and a shared UI runtime with browser DOM rendering and GPU-accelerated native rendering.
+
+| Component        | Description                                                                                                                    |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `refract`        | Unified framework API and CLI for project scaffolding, development workflows, and web and desktop builds.                       |
+| `refract-core`   | Portable views, retained UI state, incremental reconciliation, styling, animation, and vector drawing.                           |
+| `refract-graph`  | Reactive dependency graph with typed state, cached derived values, bindings, and automatically tracked subscriptions.            |
+| `refract-web`    | WebAssembly browser adapter that renders shared views into the DOM and integrates browser events, layout, and navigation.       |
+| `refract-native` | Native desktop adapter combining Vello GPU rendering, Taffy layout, Parley text shaping, and winit window management.             |
+| `refract-macros` | Declarative view authoring with the `#[view]` macro and integrated state, actions, effects, and environment access.                |
+| `refract-test`   | Deterministic in-memory adapter for testing views, reactive updates, interactions, and animations.                               |
+
 ### [Hera](https://herastack.com)
 **Graphics stack and application framework for Linux · Rust, Vulkan, DRM/KMS, React Native**
 
